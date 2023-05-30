@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content=
+		"width=device-width, initial-scale=1.0">
+
+	
+	<title>ContactUs</title>
+</head>
+<header>
+	<div class="logo">
+		<img src="https://lh3.googleusercontent.com/pw/AJFCJaXEU1P7OzwXpUwH13XvBf46_YYoYPuVHvL77R1QgqvlS9bOneKQfdMuV200SM2Hr5W0oJFoTfxiGoV2IIoKm1YZirIpxfZCWB_lgD3zxe1yyEImSPRg3ClO8VUOho3ELO15e2XKfpAztv72sBnvCZVp=w448-h382-s-no?authuser=0" alt="" width="100">
+	</div>
+</header>
+<style>
+    body{
+        margin: 10%;
+        background-color:#b8d8d8;
+        line-height: 5ch;
+        text-align: center;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: oblique;
+        font-size: 1em;
+        @media (max-width: 767px) {
+            /* CSS rules for phones */
+          }
+          
+          /* Styles for laptops and larger screens */
+          @media (min-width: 768px) {
+            /* CSS rules for laptops and larger screens */
+          }
+          
+              
+            }
+            
+            .container {
+              width: 100%; /* Use percentage for width */
+              max-width: 1200px; /* Optional: Set a maximum width for larger screens */
+            }
+            
+            img {
+              max-width: 100%; /* Make images responsive within their containers */
+            
+    }
+    h1{
+        text-align: center;
+        color: white;
+        background-color: black;
+    }
+    
+    input{
+        
+        background-color: transparent;
+        text-align: center;
+        border-color: black;
+        padding: 4px;
+    
+    }
+    select{
+        background-color: transparent;
+    }
+   
+    textarea{
+        background-color: transparent;
+        text-align: center;
+        padding: 4px;
+    }
+    footer{
+        color:whitesmoke;
+        background-color: black;
+        text-align: end;
+
+    }
+	header{
+		text-align: end;
+	}
+</style>
+
+<body>
+	<div id="ContactUs">
+		<h1>Contact Us</h1>
+		<form action="#">
+			<div class="form-shape">
+				<label for="query">
+					Type of Query
+				</label>
+				<select name="myQuery" id="query">
+					<option value="sel" selected>
+						Select
+					</option>
+					<option value="ord">
+						Order related Issues
+					</option>
+					<option value="Site">
+						Site related Issues
+					</option>
+					<option value="fed">
+						Complaint related Issues
+					</option>
+					<option value="others">
+						Others
+					</option>
+				</select>
+			</div>
+			<div class="form-shape">
+				<label for="name">Name</label>
+				<input type="text" name="myName"
+					id="name"
+					placeholder="Enter your Name">
+			</div>
+			<div class="form-shape">
+				<label for="email">Email-Id</label>
+				<input type="email" name="myEmail"
+					id="email"
+					placeholder="Enter your email">
+			</div>
+			<div class="form-shape">
+				<label for="pho">Phone Number</label>
+				<input type="phone" name="myPhone"
+					id="pho"
+					placeholder="Enter your Phone no">
+			</div>
+			
+			<div class="form-shape">
+				<label for="message">
+					Ellaborate your query
+				</label>
+				<textarea name="mesg" id="message"
+					cols="20" rows="1">
+				</textarea>
+			</div>
+            <div id="radio">
+				Are you a member of OnlneFoodShop:
+				Yes <input type="radio" name="eligible">
+				No <input type="radio" name="eligible">
+			</div>
+			<input type="submit" value="Submit">
+			<input type="reset" value="Reset">
+		</form>
+	</div>
+	
+    <p>Phone: 123-456-7890</p>
+    <p>Email: info@somyasbistro.com</p>
+    <footer>
+        [ <small>Developed by @<a href="https://s15jn.github.io/task2/portfolio2.html">
+            Somya Jain.</a></a>
+        </small>]</footer>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    /* Styles for phones */
+@media (max-width: 767px) {
+  /* CSS rules for phones */
+}
+
+/* Styles for laptops and larger screens */
+@media (min-width: 768px) {
+  /* CSS rules for laptops and larger screens */
+}
+
+    
+  }
+  
+  .container {
+    width: 100%; /* Use percentage for width */
+    max-width: 1200px; /* Optional: Set a maximum width for larger screens */
+  }
+  
+  img {
+    max-width: 100%; /* Make images responsive within their containers */
+  }
+  
+  header {
+    
+    background:black;
+   padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+font-size: 1em;
+font-size: larger;
+    text-align: end;
+    
+  }
+  .h11{
+    color: white;
+   overflow-wrap: normal;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 8px;
+    margin: 0;
+    text-align: end;
+  }
+  #about {
+    background: #f9f9f9;
+    color: #555555;
+  }
+  .container {
+    position: relative;
+    text-align:center;
+    color:black;
+    width: 100%;
+   font-size: larger;
+   font-weight: bolder;
+   font-family: Arial, Helvetica, sans-serif;
+   font-style: italic;
+   font-size: 2.5em;
+
+  
+  }
+  .img1{
+    background-color:#b8d8d8;
+    opacity:0.8;
+   
+  }
+  .centered {
+    position:absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+  }
+  
+  a{
+    color:#b8d8d8;
+    text-decoration: solid;
+   
+  }
+ 
+  .b2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: larger;
+    font: 2em sans-serif;
+    }
+.p1{
+    background-color: black;
+    color: white;
+   padding: 5%;
+}
+.p2{
+  background-color: black;
+  color: white;
+  text-align: center;
+ padding: 5%;
+ font-size: xx-large;
+}
+button{
+    color: white;
+    background-color: black;
+    border-color: transparent;
+
+}
+footer{
+  color:#b8d8;
+  background-color:black;
+  text-align: end;
+}
+.row {
+  display: flex;
+  background-color: #b8d8d8;
+  padding: 4px;
+}
+
+.column {
+  flex: 1;
+}
+
+.img img {
+  width: 90%;
+  height: auto;
+  opacity: 0; /* Start with 0 opacity */
+  transform: translateY(50px); /* Start position below, adjust as needed */
+  animation: fadeInUp 3s ease-in-out infinite
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px); /* Start position */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0); /* End position */
+  }
+}
+.b2{
+text-align: center;
+font-size: 2ch;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-style: italic;
+
+font-size: xx-large;
+font-weight: bolder;
+}
+
+.con2{
+  position: relative;
+    text-align:center;
+    color:black;
+    width: 100%;
+   font-size: larger;
+   font-weight: bolder;
+   font-family: Arial, Helvetica, sans-serif;
+   font-style: italic;
+   font-size: 2.5em;
+}
+
+
+
+
+
+
+
